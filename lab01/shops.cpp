@@ -1,6 +1,5 @@
 #include <iostream>
 #include <bits/stdc++.h>
-// #include "debug.h"
 using namespace std;
 
 
@@ -47,8 +46,6 @@ int main(){
         cin >> buildings[i];
     }
     preprocess(N);
-
-    // printSetofmap(Sets,N);
 
     int res;
     for (int i = 1 ; i<= N; i++){
